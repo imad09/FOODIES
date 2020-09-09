@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white_background"
+    android:layout_height="match_parent"
+    tools:context=".AppTourActivity">
+    <androidx.viewpager.widget.ViewPager
+        android:layout_width="match_parent"
+        android:id="@+id/tourviewpager"
+        android:layout_height="match_parent"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_marginBottom="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_height="50dp">
+        <com.tbuonomo.viewpagerdotsindicator.DotsIndicator
+            android:id="@+id/tour_tablayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:dotsColor="#AEAEAE"
+            app:dotsCornerRadius="8dp"
+            app:dotsSize="16dp"
+            app:dotsSpacing="4dp"
+            app:dotsWidthFactor="2.5"
+            app:selectedDotColor="@color/colorPrimaryDark"
+            app:progressMode="true"
+            />
+    </LinearLayout>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:id="@+id/get_stared_btn"
+        android:clickable="true"
+        android:visibility="gone"
+        android:layout_marginVertical="15dp"
+        app:cardElevation="0.7dp"
+        android:layout_marginHorizontal="70dp"
+        android:layout_alignParentBottom="true"
+        android:foreground="?attr/selectableItemBackground"
+        app:cardBackgroundColor="@color/colorPrimaryDark"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:text="Commencez maintenant"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="@font/foodies_font_1"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:layout_height="wrap_content"
+            tools:ignore="RtlCompat" />
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

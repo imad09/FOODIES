@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:text="Modifier la quantité de stock"
+        android:layout_marginTop="35dp"
+        android:layout_gravity="center_vertical"
+        android:fontFamily="@font/foodies_font_1"
+        android:textColor="@color/colorPrimary"
+        android:textSize="17sp"
+        android:layout_height="wrap_content"
+        tools:ignore="RtlCompat" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:textAlignment="center"
+        android:text="Quantité actuelle"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center_vertical"
+        android:fontFamily="@font/foodies_font_1"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        android:layout_height="wrap_content"
+        tools:ignore="RtlCompat" />
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        app:cardElevation="0.5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_height="50dp">
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            app:met_hideUnderline="true"
+            android:textSize="13sp"
+            android:paddingLeft="5dp"
+            android:maxLines="1"
+            android:id="@+id/bottom_old_quantity"
+            android:enabled="false"
+            android:paddingRight="5dp"
+            app:met_baseColor="@color/colorPrimary"
+            android:fontFamily="@font/foodies_font_1"
+            android:layout_height="match_parent"/>
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:textAlignment="center"
+        android:text="Nouvelle quantité"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center_vertical"
+        android:fontFamily="@font/foodies_font_1"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        android:layout_height="wrap_content"
+        tools:ignore="RtlCompat" />
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        app:cardElevation="0.5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_height="50dp">
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            app:met_hideUnderline="true"
+            android:textSize="13sp"
+            android:paddingLeft="5dp"
+            android:maxLines="1"
+            android:id="@+id/bottom_new_quantity"
+            android:paddingRight="5dp"
+            app:met_baseColor="@color/colorPrimary"
+            android:fontFamily="@font/foodies_font_1"
+            android:hint="Nom De Produit..."
+            android:layout_height="match_parent"/>
+    </androidx.cardview.widget.CardView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/bottom_update_quantity"
+        android:background="@color/colorPrimaryDark"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:text="Mettre à jour"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="@font/foodies_font_1"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:layout_height="wrap_content"
+            tools:ignore="RtlCompat" />
+    </LinearLayout>
+</LinearLayout>

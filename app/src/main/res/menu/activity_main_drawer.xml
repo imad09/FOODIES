@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_cross"
+            android:title="Accueil" />
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/shopping_cart_icon"
+            android:title="Chariot" />
+        <item
+            android:title="Credit"
+            android:id="@+id/nav_credit"
+            android:icon="@drawable/copy_right_icon"
+            tools:ignore="HardcodedText">
+        </item>
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/user_icon_bottom"
+            android:title="Profile" />
+    </group>
+</menu>

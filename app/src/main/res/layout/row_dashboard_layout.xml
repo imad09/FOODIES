@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="0.5dp"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="25dp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_centerInParent="true"
+                android:scaleType="centerCrop"
+                android:padding="10dp"
+                android:id="@+id/dashboard_image"
+                android:layout_height="80dp"/>
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginLeft="3dp"
+            android:text="Produits totaux"
+            android:id="@+id/dashboard_name"
+            android:layout_marginHorizontal="10dp"
+            android:textAlignment="center"
+            android:ellipsize="end"
+            android:fontFamily="@font/foodies_font_1"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15sp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="10dp"
+            android:text="7 Produits"
+            android:maxLines="1"
+            android:id="@+id/dashboard_count"
+            android:layout_marginBottom="15dp"
+            android:textAlignment="center"
+            android:ellipsize="end"
+            android:fontFamily="@font/foodies_font_1"
+            android:textColor="@color/grey_color"
+            android:textSize="14sp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

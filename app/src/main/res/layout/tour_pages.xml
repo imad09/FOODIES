@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/white_background"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="300dp">
+
+        <ImageView
+            android:id="@+id/tour_layout_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginLeft="3dp"
+        android:text="MPHARMA,Pharmacie en ligne"
+        android:layout_marginHorizontal="10dp"
+        android:textAlignment="center"
+        android:id="@+id/tour_layout_name"
+        android:ellipsize="end"
+        android:fontFamily="@font/foodies_font_1"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:text="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great"
+        android:layout_marginHorizontal="25dp"
+        android:layout_marginVertical="15dp"
+        android:textAlignment="center"
+        android:lineHeight="25dp"
+        android:ellipsize="end"
+        android:id="@+id/tour_layout_description"
+        android:fontFamily="@font/foodies_font_1"
+        android:textColor="#AEAEAE"
+        android:textSize="13sp"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
