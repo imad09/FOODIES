@@ -1,7 +1,6 @@
 <component name="libraryTable">
   <library name="Gradle: com.gjiazhe:PanoramaImageView:1.0@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/31ce2cfd44f8c0f0ca85a879ec45c0a8/jetified-PanoramaImageView-1.0/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/31ce2cfd44f8c0f0ca85a879ec45c0a8/jetified-PanoramaImageView-1.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/31ce2cfd44f8c0f0ca85a879ec45c0a8/jetified-PanoramaImageView-1.0/res" />
     </CLASSES>
